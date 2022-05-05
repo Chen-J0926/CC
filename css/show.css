@@ -1,0 +1,31 @@
+#container h2{
+    font-family: 华文新魏;
+    text-align: center;
+}
+#center{
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+}
+#center ul {
+    overflow: hidden;
+    height:100%;
+}
+#center ul li {
+    width: 33.3333%;
+    height: 150px;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    list-style:none;
+}
+#center ul li a{
+    height: 150px;
+    width: 100%;
+}
+#table{
+    background-color: rgba(200, 200, 200, 0.6);
+}
+#table td{
+    width: 100px;
+}
