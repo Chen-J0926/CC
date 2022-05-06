@@ -1,0 +1,58 @@
+##使用环境：（AppServ 8.6）
+mysql5.0 + php5.6 + apache2.4
+
+##项目文件夹说明
+|
+|---- action：表单活动文件
+|
+|---- css：存放css文件
+|
+|---- data：存放数据库文件
+|
+|---- utils： 存放工具方法
+|
+|---- images：存放图片资源文件
+|
+|---- js：存放js文件
+|
+|----test：测试文件
+|
+|------ content.php：中间主体内容显示
+|
+|------ footer.php：脚注
+|
+|--- index.php：入口
+|
+|--- login.php：登录
+|
+|--- nav.php：导航栏
+
+
+##数据库文件说明：
+|
+|-- tb_book：图书信息
+|
+|-- tb_bookborrow：图书借阅
+|
+|-- tb_booktype：图书类型
+|
+|-- tb_case：图书书架
+|
+|-- tb_library：图书馆信息
+|
+|-- tb_logintype：用户类型（包含用户类型）
+|
+|-- tb_permission：权限设置
+|
+|-- tb_press：出版社
+|
+|-- tb_stock：图书总库存量
+|
+|-- tb_user：用户信息
+
+
+
+##使用说明：
+    将整个项目文件放入AppServ安装目录下的www文件夹，
+    将data文件夹下的jju_book.sql文件放至mysql安装目录下的data文件夹中，
+    启动apache，在浏览器中输入127.0.0.1/BookManagement.login.php

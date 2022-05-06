@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height:calc(100vh - 0px);
+    margin-top: -10px;
+    background: #0e7caf;
+}
+div.bg {
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+form {
+    width: 240px;
+    height: 140px;
+    position: relative;
+    left: 42%;
+    top: 45%;
+    margin: -70px 0 -120px 0;
+
+}
+
+label, .btn {
+    display: block;
+}
+
+label, input {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-left: 70px;
+    width: 100px;
+    height: 30px;
+    color: #f5f5f5;
+    background: linear-gradient(to right, #2769a6, #3379b6, #3d90c9, #23659a);
+    border: #23659a solid 1px;
+    box-shadow: 2px 1px #4b4c4d;
+}
+
